@@ -1,0 +1,24 @@
+{
+  "name": "twitter_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-register": "^6.24.1",
+    "twitter": "^1.7.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "blacklist": "^1.1.4",
+    "cld": "^2.4.7",
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/index.js"
+  },
+  "author": "Pierre Ortega",
+  "license": "ISC"
+}
